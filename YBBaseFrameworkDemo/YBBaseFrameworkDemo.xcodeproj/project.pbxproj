@@ -21,27 +21,27 @@
 		EC8D768B1FD00F0800C6CBE2 /* error_nodata_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8D76851FD00F0800C6CBE2 /* error_nodata_bg.png */; };
 		EC8D768C1FD00F0800C6CBE2 /* error_nodata_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8D76861FD00F0800C6CBE2 /* error_nodata_bg@2x.png */; };
 		EC8D768D1FD00F0800C6CBE2 /* error_nodata_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC8D76871FD00F0800C6CBE2 /* error_nodata_bg@3x.png */; };
-		ECD686AC1FD02101001DAF24 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6867C1FD02100001DAF24 /* UIImage+Alpha.m */; };
-		ECD686AD1FD02101001DAF24 /* UILabel+BoundingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6867E1FD02100001DAF24 /* UILabel+BoundingRect.m */; };
-		ECD686AE1FD02101001DAF24 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686801FD02100001DAF24 /* UIViewController+Alert.m */; };
-		ECD686AF1FD02101001DAF24 /* YBErrorPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686831FD02100001DAF24 /* YBErrorPageView.m */; };
-		ECD686B41FD02101001DAF24 /* YBBaseInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6868F1FD02100001DAF24 /* YBBaseInteractor.m */; };
-		ECD686B51FD02101001DAF24 /* YBBaseRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686911FD02100001DAF24 /* YBBaseRequestWorker.m */; };
-		ECD686B61FD02101001DAF24 /* YBBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686941FD02100001DAF24 /* YBBasePresenter.m */; };
-		ECD686B71FD02101001DAF24 /* AESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6869C1FD02100001DAF24 /* AESEncrypt.m */; };
-		ECD686B81FD02101001DAF24 /* Base64Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6869E1FD02100001DAF24 /* Base64Encrypt.m */; };
-		ECD686B91FD02101001DAF24 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686A11FD02100001DAF24 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		ECD686BA1FD02101001DAF24 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686A41FD02100001DAF24 /* NSData+AES.m */; };
-		ECD686BB1FD02101001DAF24 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686A61FD02100001DAF24 /* SecurityUtil.m */; };
-		ECD686D11FD0220E001DAF24 /* YBErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686BE1FD0220D001DAF24 /* YBErrorModel.m */; };
-		ECD686D21FD0220E001DAF24 /* YBHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686C01FD0220D001DAF24 /* YBHttpRequestManager.m */; };
-		ECD686D31FD0220E001DAF24 /* YBHttpResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686C21FD0220D001DAF24 /* YBHttpResponseModel.m */; };
-		ECD686D41FD0220E001DAF24 /* YBHttpServerErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686C41FD0220D001DAF24 /* YBHttpServerErrorModel.m */; };
-		ECD686D51FD0220E001DAF24 /* YBResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686C61FD0220D001DAF24 /* YBResponseModel.m */; };
-		ECD686D61FD0220E001DAF24 /* NSErrorCodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686CA1FD0220D001DAF24 /* NSErrorCodeHandle.m */; };
-		ECD686D71FD0220E001DAF24 /* NSObject+Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686CC1FD0220D001DAF24 /* NSObject+Dispatch.m */; };
-		ECD686D81FD0220E001DAF24 /* NSObject+ErrorCodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686CE1FD0220D001DAF24 /* NSObject+ErrorCodeHandle.m */; };
-		ECD686D91FD0220E001DAF24 /* NSObject+UIErrorHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686D01FD0220D001DAF24 /* NSObject+UIErrorHandle.m */; };
+		ECD687101FD02C4C001DAF24 /* YBErrorPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686DE1FD02C4C001DAF24 /* YBErrorPageView.m */; };
+		ECD687111FD02C4C001DAF24 /* YBErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686E11FD02C4C001DAF24 /* YBErrorModel.m */; };
+		ECD687121FD02C4C001DAF24 /* YBHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686E31FD02C4C001DAF24 /* YBHttpRequestManager.m */; };
+		ECD687131FD02C4C001DAF24 /* YBHttpResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686E51FD02C4C001DAF24 /* YBHttpResponseModel.m */; };
+		ECD687141FD02C4C001DAF24 /* YBHttpServerErrorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686E71FD02C4C001DAF24 /* YBHttpServerErrorModel.m */; };
+		ECD687151FD02C4C001DAF24 /* YBResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686E91FD02C4C001DAF24 /* YBResponseModel.m */; };
+		ECD687161FD02C4C001DAF24 /* YBBaseInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686ED1FD02C4C001DAF24 /* YBBaseInteractor.m */; };
+		ECD687171FD02C4C001DAF24 /* YBBaseRequestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686EF1FD02C4C001DAF24 /* YBBaseRequestWorker.m */; };
+		ECD687181FD02C4C001DAF24 /* AESEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686F61FD02C4C001DAF24 /* AESEncrypt.m */; };
+		ECD687191FD02C4C001DAF24 /* Base64Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686F81FD02C4C001DAF24 /* Base64Encrypt.m */; };
+		ECD6871A1FD02C4C001DAF24 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686FA1FD02C4C001DAF24 /* NSData+AES.m */; };
+		ECD6871B1FD02C4C001DAF24 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686FC1FD02C4C001DAF24 /* SecurityUtil.m */; };
+		ECD6871C1FD02C4C001DAF24 /* NSErrorCodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD686FF1FD02C4C001DAF24 /* NSErrorCodeHandle.m */; };
+		ECD6871D1FD02C4C001DAF24 /* NSObject+Dispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD687011FD02C4C001DAF24 /* NSObject+Dispatch.m */; };
+		ECD6871E1FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD687031FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.m */; };
+		ECD6871F1FD02C4C001DAF24 /* NSObject+UIErrorHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD687051FD02C4C001DAF24 /* NSObject+UIErrorHandle.m */; };
+		ECD687201FD02C4C001DAF24 /* YBBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD687081FD02C4C001DAF24 /* YBBasePresenter.m */; };
+		ECD687211FD02C4D001DAF24 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6870B1FD02C4C001DAF24 /* UIImage+Alpha.m */; };
+		ECD687221FD02C4D001DAF24 /* UILabel+BoundingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6870D1FD02C4C001DAF24 /* UILabel+BoundingRect.m */; };
+		ECD687231FD02C4D001DAF24 /* UIViewController+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD6870F1FD02C4C001DAF24 /* UIViewController+Alert.m */; };
+		ECD687281FD02C53001DAF24 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD687261FD02C53001DAF24 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,54 +75,54 @@
 		EC8D76851FD00F0800C6CBE2 /* error_nodata_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_nodata_bg.png; sourceTree = "<group>"; };
 		EC8D76861FD00F0800C6CBE2 /* error_nodata_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error_nodata_bg@2x.png"; sourceTree = "<group>"; };
 		EC8D76871FD00F0800C6CBE2 /* error_nodata_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error_nodata_bg@3x.png"; sourceTree = "<group>"; };
-		ECD6866D1FD02100001DAF24 /* YBFwConfigDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFwConfigDemo.h; sourceTree = "<group>"; };
-		ECD6867B1FD02100001DAF24 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
-		ECD6867C1FD02100001DAF24 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
-		ECD6867D1FD02100001DAF24 /* UILabel+BoundingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BoundingRect.h"; sourceTree = "<group>"; };
-		ECD6867E1FD02100001DAF24 /* UILabel+BoundingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BoundingRect.m"; sourceTree = "<group>"; };
-		ECD6867F1FD02100001DAF24 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
-		ECD686801FD02100001DAF24 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
-		ECD686821FD02100001DAF24 /* YBErrorPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBErrorPageView.h; sourceTree = "<group>"; };
-		ECD686831FD02100001DAF24 /* YBErrorPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBErrorPageView.m; sourceTree = "<group>"; };
-		ECD6868E1FD02100001DAF24 /* YBBaseInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseInteractor.h; sourceTree = "<group>"; };
-		ECD6868F1FD02100001DAF24 /* YBBaseInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseInteractor.m; sourceTree = "<group>"; };
-		ECD686901FD02100001DAF24 /* YBBaseRequestWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseRequestWorker.h; sourceTree = "<group>"; };
-		ECD686911FD02100001DAF24 /* YBBaseRequestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseRequestWorker.m; sourceTree = "<group>"; };
-		ECD686931FD02100001DAF24 /* YBBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBasePresenter.h; sourceTree = "<group>"; };
-		ECD686941FD02100001DAF24 /* YBBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBasePresenter.m; sourceTree = "<group>"; };
-		ECD686961FD02100001DAF24 /* YBFrameHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFrameHeader.h; sourceTree = "<group>"; };
-		ECD686981FD02100001DAF24 /* YBRequestWorkerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRequestWorkerProtocol.h; sourceTree = "<group>"; };
-		ECD686991FD02100001DAF24 /* YBResponseErrorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseErrorProtocol.h; sourceTree = "<group>"; };
-		ECD6869B1FD02100001DAF24 /* AESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESEncrypt.h; sourceTree = "<group>"; };
-		ECD6869C1FD02100001DAF24 /* AESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESEncrypt.m; sourceTree = "<group>"; };
-		ECD6869D1FD02100001DAF24 /* Base64Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Encrypt.h; sourceTree = "<group>"; };
-		ECD6869E1FD02100001DAF24 /* Base64Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Encrypt.m; sourceTree = "<group>"; };
-		ECD686A01FD02100001DAF24 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		ECD686A11FD02100001DAF24 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		ECD686A21FD02100001DAF24 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		ECD686A31FD02100001DAF24 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
-		ECD686A41FD02100001DAF24 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
-		ECD686A51FD02100001DAF24 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
-		ECD686A61FD02100001DAF24 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
-		ECD686BD1FD0220D001DAF24 /* YBErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBErrorModel.h; sourceTree = "<group>"; };
-		ECD686BE1FD0220D001DAF24 /* YBErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBErrorModel.m; sourceTree = "<group>"; };
-		ECD686BF1FD0220D001DAF24 /* YBHttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpRequestManager.h; sourceTree = "<group>"; };
-		ECD686C01FD0220D001DAF24 /* YBHttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpRequestManager.m; sourceTree = "<group>"; };
-		ECD686C11FD0220D001DAF24 /* YBHttpResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpResponseModel.h; sourceTree = "<group>"; };
-		ECD686C21FD0220D001DAF24 /* YBHttpResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpResponseModel.m; sourceTree = "<group>"; };
-		ECD686C31FD0220D001DAF24 /* YBHttpServerErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpServerErrorModel.h; sourceTree = "<group>"; };
-		ECD686C41FD0220D001DAF24 /* YBHttpServerErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpServerErrorModel.m; sourceTree = "<group>"; };
-		ECD686C51FD0220D001DAF24 /* YBResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseModel.h; sourceTree = "<group>"; };
-		ECD686C61FD0220D001DAF24 /* YBResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBResponseModel.m; sourceTree = "<group>"; };
-		ECD686C71FD0220D001DAF24 /* YBResponseResultCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseResultCode.h; sourceTree = "<group>"; };
-		ECD686C91FD0220D001DAF24 /* NSErrorCodeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSErrorCodeHandle.h; sourceTree = "<group>"; };
-		ECD686CA1FD0220D001DAF24 /* NSErrorCodeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorCodeHandle.m; sourceTree = "<group>"; };
-		ECD686CB1FD0220D001DAF24 /* NSObject+Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dispatch.h"; sourceTree = "<group>"; };
-		ECD686CC1FD0220D001DAF24 /* NSObject+Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dispatch.m"; sourceTree = "<group>"; };
-		ECD686CD1FD0220D001DAF24 /* NSObject+ErrorCodeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ErrorCodeHandle.h"; sourceTree = "<group>"; };
-		ECD686CE1FD0220D001DAF24 /* NSObject+ErrorCodeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ErrorCodeHandle.m"; sourceTree = "<group>"; };
-		ECD686CF1FD0220D001DAF24 /* NSObject+UIErrorHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIErrorHandle.h"; sourceTree = "<group>"; };
-		ECD686D01FD0220D001DAF24 /* NSObject+UIErrorHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIErrorHandle.m"; sourceTree = "<group>"; };
+		ECD686DB1FD02C4C001DAF24 /* YBFwConfigDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFwConfigDemo.h; sourceTree = "<group>"; };
+		ECD686DD1FD02C4C001DAF24 /* YBErrorPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBErrorPageView.h; sourceTree = "<group>"; };
+		ECD686DE1FD02C4C001DAF24 /* YBErrorPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBErrorPageView.m; sourceTree = "<group>"; };
+		ECD686E01FD02C4C001DAF24 /* YBErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBErrorModel.h; sourceTree = "<group>"; };
+		ECD686E11FD02C4C001DAF24 /* YBErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBErrorModel.m; sourceTree = "<group>"; };
+		ECD686E21FD02C4C001DAF24 /* YBHttpRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpRequestManager.h; sourceTree = "<group>"; };
+		ECD686E31FD02C4C001DAF24 /* YBHttpRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpRequestManager.m; sourceTree = "<group>"; };
+		ECD686E41FD02C4C001DAF24 /* YBHttpResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpResponseModel.h; sourceTree = "<group>"; };
+		ECD686E51FD02C4C001DAF24 /* YBHttpResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpResponseModel.m; sourceTree = "<group>"; };
+		ECD686E61FD02C4C001DAF24 /* YBHttpServerErrorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpServerErrorModel.h; sourceTree = "<group>"; };
+		ECD686E71FD02C4C001DAF24 /* YBHttpServerErrorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpServerErrorModel.m; sourceTree = "<group>"; };
+		ECD686E81FD02C4C001DAF24 /* YBResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseModel.h; sourceTree = "<group>"; };
+		ECD686E91FD02C4C001DAF24 /* YBResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBResponseModel.m; sourceTree = "<group>"; };
+		ECD686EA1FD02C4C001DAF24 /* YBResponseResultCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseResultCode.h; sourceTree = "<group>"; };
+		ECD686EC1FD02C4C001DAF24 /* YBBaseInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseInteractor.h; sourceTree = "<group>"; };
+		ECD686ED1FD02C4C001DAF24 /* YBBaseInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseInteractor.m; sourceTree = "<group>"; };
+		ECD686EE1FD02C4C001DAF24 /* YBBaseRequestWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBaseRequestWorker.h; sourceTree = "<group>"; };
+		ECD686EF1FD02C4C001DAF24 /* YBBaseRequestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBaseRequestWorker.m; sourceTree = "<group>"; };
+		ECD686F11FD02C4C001DAF24 /* YBFrameHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBFrameHeader.h; sourceTree = "<group>"; };
+		ECD686F21FD02C4C001DAF24 /* YBRequestWorkerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRequestWorkerProtocol.h; sourceTree = "<group>"; };
+		ECD686F31FD02C4C001DAF24 /* YBResponseErrorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBResponseErrorProtocol.h; sourceTree = "<group>"; };
+		ECD686F51FD02C4C001DAF24 /* AESEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESEncrypt.h; sourceTree = "<group>"; };
+		ECD686F61FD02C4C001DAF24 /* AESEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESEncrypt.m; sourceTree = "<group>"; };
+		ECD686F71FD02C4C001DAF24 /* Base64Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Encrypt.h; sourceTree = "<group>"; };
+		ECD686F81FD02C4C001DAF24 /* Base64Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Encrypt.m; sourceTree = "<group>"; };
+		ECD686F91FD02C4C001DAF24 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		ECD686FA1FD02C4C001DAF24 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		ECD686FB1FD02C4C001DAF24 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		ECD686FC1FD02C4C001DAF24 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		ECD686FE1FD02C4C001DAF24 /* NSErrorCodeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSErrorCodeHandle.h; sourceTree = "<group>"; };
+		ECD686FF1FD02C4C001DAF24 /* NSErrorCodeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSErrorCodeHandle.m; sourceTree = "<group>"; };
+		ECD687001FD02C4C001DAF24 /* NSObject+Dispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dispatch.h"; sourceTree = "<group>"; };
+		ECD687011FD02C4C001DAF24 /* NSObject+Dispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dispatch.m"; sourceTree = "<group>"; };
+		ECD687021FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ErrorCodeHandle.h"; sourceTree = "<group>"; };
+		ECD687031FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ErrorCodeHandle.m"; sourceTree = "<group>"; };
+		ECD687041FD02C4C001DAF24 /* NSObject+UIErrorHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIErrorHandle.h"; sourceTree = "<group>"; };
+		ECD687051FD02C4C001DAF24 /* NSObject+UIErrorHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIErrorHandle.m"; sourceTree = "<group>"; };
+		ECD687071FD02C4C001DAF24 /* YBBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBBasePresenter.h; sourceTree = "<group>"; };
+		ECD687081FD02C4C001DAF24 /* YBBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBBasePresenter.m; sourceTree = "<group>"; };
+		ECD6870A1FD02C4C001DAF24 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		ECD6870B1FD02C4C001DAF24 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		ECD6870C1FD02C4C001DAF24 /* UILabel+BoundingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BoundingRect.h"; sourceTree = "<group>"; };
+		ECD6870D1FD02C4C001DAF24 /* UILabel+BoundingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BoundingRect.m"; sourceTree = "<group>"; };
+		ECD6870E1FD02C4C001DAF24 /* UIViewController+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alert.h"; sourceTree = "<group>"; };
+		ECD6870F1FD02C4C001DAF24 /* UIViewController+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alert.m"; sourceTree = "<group>"; };
+		ECD687251FD02C53001DAF24 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		ECD687261FD02C53001DAF24 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		ECD687271FD02C53001DAF24 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		FCBC78E270E165B4CC839C6E /* Pods-YBBaseFrameworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBBaseFrameworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YBBaseFrameworkDemo/Pods-YBBaseFrameworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FD2E8042898954E5AB25A1E9 /* libPods-YBBaseFrameworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YBBaseFrameworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -186,6 +186,7 @@
 		EC8D75671FCFE15300C6CBE2 /* YBBaseFrameworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ECD687241FD02C53001DAF24 /* GTMBase64 */,
 				ECD6866B1FD02100001DAF24 /* YBBaseFramework */,
 				EC8D76811FD00F0800C6CBE2 /* Resources */,
 				EC8D75681FCFE15300C6CBE2 /* AppDelegate.h */,
@@ -226,136 +227,135 @@
 		ECD6866B1FD02100001DAF24 /* YBBaseFramework */ = {
 			isa = PBXGroup;
 			children = (
-				ECD6866C1FD02100001DAF24 /* READ_ME */,
-				ECD686BC1FD0220D001DAF24 /* YBAFNetwork */,
-				ECD686C81FD0220D001DAF24 /* YBErrorHandle */,
-				ECD6867A1FD02100001DAF24 /* YBCategory */,
-				ECD686811FD02100001DAF24 /* YBCustomView */,
-				ECD6868D1FD02100001DAF24 /* YBInteractor */,
-				ECD686921FD02100001DAF24 /* YBPresenter */,
-				ECD686951FD02100001DAF24 /* YBProtocol */,
-				ECD6869A1FD02100001DAF24 /* YBSecurity */,
+				ECD686DA1FD02C4C001DAF24 /* READ_ME */,
+				ECD686DF1FD02C4C001DAF24 /* YBAFNetwork */,
+				ECD687091FD02C4C001DAF24 /* YBCategory */,
+				ECD686DC1FD02C4C001DAF24 /* YBCustomView */,
+				ECD686FD1FD02C4C001DAF24 /* YBErrorHandle */,
+				ECD686EB1FD02C4C001DAF24 /* YBInteractor */,
+				ECD687061FD02C4C001DAF24 /* YBPresenter */,
+				ECD686F01FD02C4C001DAF24 /* YBProtocol */,
+				ECD686F41FD02C4C001DAF24 /* YBSecurity */,
 			);
 			path = YBBaseFramework;
 			sourceTree = "<group>";
 		};
-		ECD6866C1FD02100001DAF24 /* READ_ME */ = {
+		ECD686DA1FD02C4C001DAF24 /* READ_ME */ = {
 			isa = PBXGroup;
 			children = (
-				ECD6866D1FD02100001DAF24 /* YBFwConfigDemo.h */,
+				ECD686DB1FD02C4C001DAF24 /* YBFwConfigDemo.h */,
 			);
 			path = READ_ME;
 			sourceTree = "<group>";
 		};
-		ECD6867A1FD02100001DAF24 /* YBCategory */ = {
+		ECD686DC1FD02C4C001DAF24 /* YBCustomView */ = {
 			isa = PBXGroup;
 			children = (
-				ECD6867B1FD02100001DAF24 /* UIImage+Alpha.h */,
-				ECD6867C1FD02100001DAF24 /* UIImage+Alpha.m */,
-				ECD6867D1FD02100001DAF24 /* UILabel+BoundingRect.h */,
-				ECD6867E1FD02100001DAF24 /* UILabel+BoundingRect.m */,
-				ECD6867F1FD02100001DAF24 /* UIViewController+Alert.h */,
-				ECD686801FD02100001DAF24 /* UIViewController+Alert.m */,
-			);
-			path = YBCategory;
-			sourceTree = "<group>";
-		};
-		ECD686811FD02100001DAF24 /* YBCustomView */ = {
-			isa = PBXGroup;
-			children = (
-				ECD686821FD02100001DAF24 /* YBErrorPageView.h */,
-				ECD686831FD02100001DAF24 /* YBErrorPageView.m */,
+				ECD686DD1FD02C4C001DAF24 /* YBErrorPageView.h */,
+				ECD686DE1FD02C4C001DAF24 /* YBErrorPageView.m */,
 			);
 			path = YBCustomView;
 			sourceTree = "<group>";
 		};
-		ECD6868D1FD02100001DAF24 /* YBInteractor */ = {
+		ECD686DF1FD02C4C001DAF24 /* YBAFNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				ECD6868E1FD02100001DAF24 /* YBBaseInteractor.h */,
-				ECD6868F1FD02100001DAF24 /* YBBaseInteractor.m */,
-				ECD686901FD02100001DAF24 /* YBBaseRequestWorker.h */,
-				ECD686911FD02100001DAF24 /* YBBaseRequestWorker.m */,
-			);
-			path = YBInteractor;
-			sourceTree = "<group>";
-		};
-		ECD686921FD02100001DAF24 /* YBPresenter */ = {
-			isa = PBXGroup;
-			children = (
-				ECD686931FD02100001DAF24 /* YBBasePresenter.h */,
-				ECD686941FD02100001DAF24 /* YBBasePresenter.m */,
-			);
-			path = YBPresenter;
-			sourceTree = "<group>";
-		};
-		ECD686951FD02100001DAF24 /* YBProtocol */ = {
-			isa = PBXGroup;
-			children = (
-				ECD686961FD02100001DAF24 /* YBFrameHeader.h */,
-				ECD686981FD02100001DAF24 /* YBRequestWorkerProtocol.h */,
-				ECD686991FD02100001DAF24 /* YBResponseErrorProtocol.h */,
-			);
-			path = YBProtocol;
-			sourceTree = "<group>";
-		};
-		ECD6869A1FD02100001DAF24 /* YBSecurity */ = {
-			isa = PBXGroup;
-			children = (
-				ECD6869B1FD02100001DAF24 /* AESEncrypt.h */,
-				ECD6869C1FD02100001DAF24 /* AESEncrypt.m */,
-				ECD6869D1FD02100001DAF24 /* Base64Encrypt.h */,
-				ECD6869E1FD02100001DAF24 /* Base64Encrypt.m */,
-				ECD6869F1FD02100001DAF24 /* GTMBase64 */,
-				ECD686A31FD02100001DAF24 /* NSData+AES.h */,
-				ECD686A41FD02100001DAF24 /* NSData+AES.m */,
-				ECD686A51FD02100001DAF24 /* SecurityUtil.h */,
-				ECD686A61FD02100001DAF24 /* SecurityUtil.m */,
-			);
-			path = YBSecurity;
-			sourceTree = "<group>";
-		};
-		ECD6869F1FD02100001DAF24 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				ECD686A01FD02100001DAF24 /* GTMBase64.h */,
-				ECD686A11FD02100001DAF24 /* GTMBase64.m */,
-				ECD686A21FD02100001DAF24 /* GTMDefines.h */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		ECD686BC1FD0220D001DAF24 /* YBAFNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				ECD686BD1FD0220D001DAF24 /* YBErrorModel.h */,
-				ECD686BE1FD0220D001DAF24 /* YBErrorModel.m */,
-				ECD686BF1FD0220D001DAF24 /* YBHttpRequestManager.h */,
-				ECD686C01FD0220D001DAF24 /* YBHttpRequestManager.m */,
-				ECD686C11FD0220D001DAF24 /* YBHttpResponseModel.h */,
-				ECD686C21FD0220D001DAF24 /* YBHttpResponseModel.m */,
-				ECD686C31FD0220D001DAF24 /* YBHttpServerErrorModel.h */,
-				ECD686C41FD0220D001DAF24 /* YBHttpServerErrorModel.m */,
-				ECD686C51FD0220D001DAF24 /* YBResponseModel.h */,
-				ECD686C61FD0220D001DAF24 /* YBResponseModel.m */,
-				ECD686C71FD0220D001DAF24 /* YBResponseResultCode.h */,
+				ECD686E01FD02C4C001DAF24 /* YBErrorModel.h */,
+				ECD686E11FD02C4C001DAF24 /* YBErrorModel.m */,
+				ECD686E21FD02C4C001DAF24 /* YBHttpRequestManager.h */,
+				ECD686E31FD02C4C001DAF24 /* YBHttpRequestManager.m */,
+				ECD686E41FD02C4C001DAF24 /* YBHttpResponseModel.h */,
+				ECD686E51FD02C4C001DAF24 /* YBHttpResponseModel.m */,
+				ECD686E61FD02C4C001DAF24 /* YBHttpServerErrorModel.h */,
+				ECD686E71FD02C4C001DAF24 /* YBHttpServerErrorModel.m */,
+				ECD686E81FD02C4C001DAF24 /* YBResponseModel.h */,
+				ECD686E91FD02C4C001DAF24 /* YBResponseModel.m */,
+				ECD686EA1FD02C4C001DAF24 /* YBResponseResultCode.h */,
 			);
 			path = YBAFNetwork;
 			sourceTree = "<group>";
 		};
-		ECD686C81FD0220D001DAF24 /* YBErrorHandle */ = {
+		ECD686EB1FD02C4C001DAF24 /* YBInteractor */ = {
 			isa = PBXGroup;
 			children = (
-				ECD686C91FD0220D001DAF24 /* NSErrorCodeHandle.h */,
-				ECD686CA1FD0220D001DAF24 /* NSErrorCodeHandle.m */,
-				ECD686CB1FD0220D001DAF24 /* NSObject+Dispatch.h */,
-				ECD686CC1FD0220D001DAF24 /* NSObject+Dispatch.m */,
-				ECD686CD1FD0220D001DAF24 /* NSObject+ErrorCodeHandle.h */,
-				ECD686CE1FD0220D001DAF24 /* NSObject+ErrorCodeHandle.m */,
-				ECD686CF1FD0220D001DAF24 /* NSObject+UIErrorHandle.h */,
-				ECD686D01FD0220D001DAF24 /* NSObject+UIErrorHandle.m */,
+				ECD686EC1FD02C4C001DAF24 /* YBBaseInteractor.h */,
+				ECD686ED1FD02C4C001DAF24 /* YBBaseInteractor.m */,
+				ECD686EE1FD02C4C001DAF24 /* YBBaseRequestWorker.h */,
+				ECD686EF1FD02C4C001DAF24 /* YBBaseRequestWorker.m */,
+			);
+			path = YBInteractor;
+			sourceTree = "<group>";
+		};
+		ECD686F01FD02C4C001DAF24 /* YBProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				ECD686F11FD02C4C001DAF24 /* YBFrameHeader.h */,
+				ECD686F21FD02C4C001DAF24 /* YBRequestWorkerProtocol.h */,
+				ECD686F31FD02C4C001DAF24 /* YBResponseErrorProtocol.h */,
+			);
+			path = YBProtocol;
+			sourceTree = "<group>";
+		};
+		ECD686F41FD02C4C001DAF24 /* YBSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				ECD686F51FD02C4C001DAF24 /* AESEncrypt.h */,
+				ECD686F61FD02C4C001DAF24 /* AESEncrypt.m */,
+				ECD686F71FD02C4C001DAF24 /* Base64Encrypt.h */,
+				ECD686F81FD02C4C001DAF24 /* Base64Encrypt.m */,
+				ECD686F91FD02C4C001DAF24 /* NSData+AES.h */,
+				ECD686FA1FD02C4C001DAF24 /* NSData+AES.m */,
+				ECD686FB1FD02C4C001DAF24 /* SecurityUtil.h */,
+				ECD686FC1FD02C4C001DAF24 /* SecurityUtil.m */,
+			);
+			path = YBSecurity;
+			sourceTree = "<group>";
+		};
+		ECD686FD1FD02C4C001DAF24 /* YBErrorHandle */ = {
+			isa = PBXGroup;
+			children = (
+				ECD686FE1FD02C4C001DAF24 /* NSErrorCodeHandle.h */,
+				ECD686FF1FD02C4C001DAF24 /* NSErrorCodeHandle.m */,
+				ECD687001FD02C4C001DAF24 /* NSObject+Dispatch.h */,
+				ECD687011FD02C4C001DAF24 /* NSObject+Dispatch.m */,
+				ECD687021FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.h */,
+				ECD687031FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.m */,
+				ECD687041FD02C4C001DAF24 /* NSObject+UIErrorHandle.h */,
+				ECD687051FD02C4C001DAF24 /* NSObject+UIErrorHandle.m */,
 			);
 			path = YBErrorHandle;
+			sourceTree = "<group>";
+		};
+		ECD687061FD02C4C001DAF24 /* YBPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				ECD687071FD02C4C001DAF24 /* YBBasePresenter.h */,
+				ECD687081FD02C4C001DAF24 /* YBBasePresenter.m */,
+			);
+			path = YBPresenter;
+			sourceTree = "<group>";
+		};
+		ECD687091FD02C4C001DAF24 /* YBCategory */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6870A1FD02C4C001DAF24 /* UIImage+Alpha.h */,
+				ECD6870B1FD02C4C001DAF24 /* UIImage+Alpha.m */,
+				ECD6870C1FD02C4C001DAF24 /* UILabel+BoundingRect.h */,
+				ECD6870D1FD02C4C001DAF24 /* UILabel+BoundingRect.m */,
+				ECD6870E1FD02C4C001DAF24 /* UIViewController+Alert.h */,
+				ECD6870F1FD02C4C001DAF24 /* UIViewController+Alert.m */,
+			);
+			path = YBCategory;
+			sourceTree = "<group>";
+		};
+		ECD687241FD02C53001DAF24 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				ECD687251FD02C53001DAF24 /* GTMBase64.h */,
+				ECD687261FD02C53001DAF24 /* GTMBase64.m */,
+				ECD687271FD02C53001DAF24 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,30 +517,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD686AD1FD02101001DAF24 /* UILabel+BoundingRect.m in Sources */,
+				ECD6871C1FD02C4C001DAF24 /* NSErrorCodeHandle.m in Sources */,
+				ECD6871A1FD02C4C001DAF24 /* NSData+AES.m in Sources */,
+				ECD687151FD02C4C001DAF24 /* YBResponseModel.m in Sources */,
+				ECD6871E1FD02C4C001DAF24 /* NSObject+ErrorCodeHandle.m in Sources */,
+				ECD687231FD02C4D001DAF24 /* UIViewController+Alert.m in Sources */,
+				ECD687181FD02C4C001DAF24 /* AESEncrypt.m in Sources */,
+				ECD687171FD02C4C001DAF24 /* YBBaseRequestWorker.m in Sources */,
+				ECD687201FD02C4C001DAF24 /* YBBasePresenter.m in Sources */,
+				ECD687141FD02C4C001DAF24 /* YBHttpServerErrorModel.m in Sources */,
+				ECD687191FD02C4C001DAF24 /* Base64Encrypt.m in Sources */,
 				EC8D756D1FCFE15400C6CBE2 /* ViewController.m in Sources */,
-				ECD686D91FD0220E001DAF24 /* NSObject+UIErrorHandle.m in Sources */,
-				ECD686AE1FD02101001DAF24 /* UIViewController+Alert.m in Sources */,
-				ECD686D21FD0220E001DAF24 /* YBHttpRequestManager.m in Sources */,
-				ECD686AC1FD02101001DAF24 /* UIImage+Alpha.m in Sources */,
-				ECD686AF1FD02101001DAF24 /* YBErrorPageView.m in Sources */,
-				ECD686BB1FD02101001DAF24 /* SecurityUtil.m in Sources */,
-				ECD686D41FD0220E001DAF24 /* YBHttpServerErrorModel.m in Sources */,
+				ECD687101FD02C4C001DAF24 /* YBErrorPageView.m in Sources */,
+				ECD687211FD02C4D001DAF24 /* UIImage+Alpha.m in Sources */,
+				ECD687161FD02C4C001DAF24 /* YBBaseInteractor.m in Sources */,
+				ECD687121FD02C4C001DAF24 /* YBHttpRequestManager.m in Sources */,
 				EC8D75781FCFE15400C6CBE2 /* main.m in Sources */,
-				ECD686B71FD02101001DAF24 /* AESEncrypt.m in Sources */,
-				ECD686B81FD02101001DAF24 /* Base64Encrypt.m in Sources */,
-				ECD686D71FD0220E001DAF24 /* NSObject+Dispatch.m in Sources */,
-				ECD686D61FD0220E001DAF24 /* NSErrorCodeHandle.m in Sources */,
-				ECD686B41FD02101001DAF24 /* YBBaseInteractor.m in Sources */,
-				ECD686B91FD02101001DAF24 /* GTMBase64.m in Sources */,
+				ECD687131FD02C4C001DAF24 /* YBHttpResponseModel.m in Sources */,
+				ECD687221FD02C4D001DAF24 /* UILabel+BoundingRect.m in Sources */,
+				ECD6871F1FD02C4C001DAF24 /* NSObject+UIErrorHandle.m in Sources */,
+				ECD687281FD02C53001DAF24 /* GTMBase64.m in Sources */,
 				EC8D756A1FCFE15400C6CBE2 /* AppDelegate.m in Sources */,
-				ECD686B51FD02101001DAF24 /* YBBaseRequestWorker.m in Sources */,
-				ECD686D81FD0220E001DAF24 /* NSObject+ErrorCodeHandle.m in Sources */,
-				ECD686D51FD0220E001DAF24 /* YBResponseModel.m in Sources */,
-				ECD686B61FD02101001DAF24 /* YBBasePresenter.m in Sources */,
-				ECD686BA1FD02101001DAF24 /* NSData+AES.m in Sources */,
-				ECD686D11FD0220E001DAF24 /* YBErrorModel.m in Sources */,
-				ECD686D31FD0220E001DAF24 /* YBHttpResponseModel.m in Sources */,
+				ECD6871B1FD02C4C001DAF24 /* SecurityUtil.m in Sources */,
+				ECD6871D1FD02C4C001DAF24 /* NSObject+Dispatch.m in Sources */,
+				ECD687111FD02C4C001DAF24 /* YBErrorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
