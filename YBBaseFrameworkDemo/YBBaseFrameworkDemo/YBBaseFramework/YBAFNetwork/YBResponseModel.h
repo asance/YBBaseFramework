@@ -6,9 +6,8 @@
 //  Copyright © 2017年 asance. All rights reserved.
 //
 
-#import "YBErrorModel.h"
-#import "YBHttpResponseModel.h"
-#import "YBHttpServerErrorModel.h"
+#import <Foundation/Foundation.h>
+@class YBErrorModel;
 
 @interface YBResponseModel : NSObject
 /**业务结果码*/

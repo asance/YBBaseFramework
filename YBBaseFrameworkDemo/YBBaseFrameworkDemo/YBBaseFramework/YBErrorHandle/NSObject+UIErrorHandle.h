@@ -6,7 +6,6 @@
 //  Copyright © 2017年 asance. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "YBResponseErrorProtocol.h"
 /**
  *if 1, program will ignore custom dealing method.

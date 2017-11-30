@@ -111,15 +111,7 @@ const NSString *HttpUploadMimeTypeDesKey = @"HttpUploadMimeTypeDesKey";
         } else {
             if([responseObject isKindOfClass:[NSData class]]){
                 //party should not encrypt
-#if 0
-                NSDictionary *object = [AESEncrypt dictionaryAES128CBCDecryptForUTF8Data:responseObject
-                                                                                     key:HTTP_REQUEST_ENCRYPT_KEY
-                                                                                      iv:HTTP_REQUEST_ENCRYPT_IV];
-                
-                success(object);
-#else
                 success(responseObject);
-#endif
             }
             else{
                 success(responseObject);

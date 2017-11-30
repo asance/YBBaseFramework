@@ -9,19 +9,7 @@
 #ifndef YBFrameHeader_h
 #define YBFrameHeader_h
 
-#import "NSObject+Dispatch.h"
-#import "NSObject+UIErrorHandle.h"
-#import "NSObject+ErrorCodeHandle.h"
-#import "NSString+Finance.h"
-#import "UIImage+Alpha.h"
+#ifdef __OBJC__
 
-#import "YBResponseResultCode.h"
-#import "YBResponseModel.h"
-
-#import "YBHttpRequestManager.h"
-#import "YBHttpResponseModel.h"
-#import "YBHttpServerErrorModel.h"
-
-#import "YBErrorPageView.h"
-
+#endif
 #endif /* YBFrameHeader_h */

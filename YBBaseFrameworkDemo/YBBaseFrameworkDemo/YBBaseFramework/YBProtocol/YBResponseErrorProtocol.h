@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 @class YBErrorModel;
 
 @protocol YBResponseErrorProtocol <NSObject>

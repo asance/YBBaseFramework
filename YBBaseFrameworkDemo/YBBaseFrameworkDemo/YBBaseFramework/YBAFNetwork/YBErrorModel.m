@@ -7,6 +7,7 @@
 //
 
 #import "YBErrorModel.h"
+#import "YBResponseResultCode.h"
 
 @implementation YBErrorModel
 

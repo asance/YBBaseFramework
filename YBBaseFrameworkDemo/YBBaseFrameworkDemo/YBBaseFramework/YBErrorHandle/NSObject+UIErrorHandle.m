@@ -6,10 +6,10 @@
 //  Copyright © 2017年 asance. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "NSObject+UIErrorHandle.h"
 #import "UIViewController+Alert.h"
 #import "YBLoginWindowManger.h"
+#import "YBErrorPageView.h"
 #import "YBErrorModel.h"
 #import "SVProgressHUD.h"
 

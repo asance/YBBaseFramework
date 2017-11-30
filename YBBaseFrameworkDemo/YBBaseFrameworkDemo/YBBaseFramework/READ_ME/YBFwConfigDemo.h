@@ -6,8 +6,7 @@
 //  Copyright © 2017年 asance. All rights reserved.
 //
 
-//#import <Foundation/Foundation.h>
-#import "YBFrameHeader.h"
+#import "YBResponseErrorProtocol.h"
 
 #pragma mark - ViewControllerToInteractorPopline
 /**数据流从控制器流向转换器*/

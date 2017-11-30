@@ -9,6 +9,7 @@
 #import "YBBaseRequestWorker.h"
 #import "YBHttpRequestManager.h"
 #import "YBResponseModel.h"
+#import "YBErrorModel.h"
 #import "YBLogDefine.h"
 
 @implementation YBBaseRequestWorker

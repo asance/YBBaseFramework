@@ -7,11 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "YBErrorModel.h"
+@class YBErrorModel;
 
 @protocol YBRequestWorkerProtocol <NSObject>
 @optional
-
 /**
  * 以GET方式获取资源请求信息
  * 该接口不带参数

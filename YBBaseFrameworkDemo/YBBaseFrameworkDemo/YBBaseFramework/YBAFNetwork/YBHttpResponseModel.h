@@ -18,6 +18,7 @@
 /**http耗时,可忽略*/
 @property(strong, nonatomic) NSNumber *milliUse;
 
++ (YBHttpResponseModel *)yb_objectWithKeyValues:(NSDictionary *)object;
 - (BOOL)success;
 - (NSString *)localErrorMessage;
 

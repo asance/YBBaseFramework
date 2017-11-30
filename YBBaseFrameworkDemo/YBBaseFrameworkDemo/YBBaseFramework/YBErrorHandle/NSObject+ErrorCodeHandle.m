@@ -8,6 +8,7 @@
 
 #import "NSObject+ErrorCodeHandle.h"
 #import "NSErrorCodeHandle.h"
+#import <objc/runtime.h>
 
 static char NSObjectIgnoreAllErrorHandle        = '\1';
 static char NSObjectIgnoreServerErrorHandle     = '\2';

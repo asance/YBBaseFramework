@@ -17,7 +17,12 @@ PODS:
   - SVProgressHUD (2.1.2)
   - YBBaseCategory (1.0.1)
   - YBBaseDefine (1.0.1)
+  - YBBaseUI (1.0.2):
+    - YBBaseCategory (~> 1.0.1)
   - YBKeychainManager (1.0.1)
+  - YBLoginWindowManager (1.0.1):
+    - YBBaseCategory (~> 1.0.1)
+    - YBBaseUI (~> 1.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -25,14 +30,17 @@ DEPENDENCIES:
   - YBBaseCategory (~> 1.0.1)
   - YBBaseDefine (~> 1.0.1)
   - YBKeychainManager (~> 1.0.1)
+  - YBLoginWindowManager (~> 1.0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YBBaseCategory: 513b0137d12fb39309b1967a3518b9904714bb48
   YBBaseDefine: 71964439eb5d8d675209b375766c418ee2462912
+  YBBaseUI: 0054dff23bff4d45693a926007a0355341d47688
   YBKeychainManager: a800c688a78e25b982ddbe11eb9344b184272563
+  YBLoginWindowManager: cf8fe3cce1bafec2b11d056ad51fda8ed55a2e5a
 
-PODFILE CHECKSUM: 2135616f1f3cc5eb287ac6da00739acf56889e8f
+PODFILE CHECKSUM: 698b0b87f70b97ffd5edc670ef5e09d92b3923de
 
 COCOAPODS: 1.2.1

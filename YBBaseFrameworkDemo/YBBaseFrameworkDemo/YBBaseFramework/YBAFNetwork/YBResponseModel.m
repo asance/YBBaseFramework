@@ -7,9 +7,23 @@
 //
 
 #import "YBResponseModel.h"
+#import "YBErrorModel.h"
+#import "YBHttpResponseModel.h"
+#import "YBHttpServerErrorModel.h"
+#import "YBResponseResultCode.h"
 
 @implementation YBResponseModel
 
++ (YBResponseModel *)yb_objectWithKeyValues:(NSDictionary *)object{
+    YBResponseModel *model = [[YBResponseModel alloc] init];
+    if(nil==object){
+        return model;
+    }
+    model.code = object[@"code"];
+    model.info = object[@"info"];
+    model.msg = object[@"msg"];
+    return model;
+}
 - (BOOL)success{
     if(YB_RESPONSE_SUCCESS==[self.code integerValue]){
         return YES;
@@ -40,7 +54,6 @@
     return nil;
 }
 
-
 + (id)initWithResponseObject:(NSDictionary *)resultObject{
     
     //判断服务器是否返回错误信息
@@ -56,9 +69,9 @@
     sErrObj = nil;
     
     //判断网络是否返回错误信息
-    YBHttpResponseModel *httpObj = [YBHttpResponseModel mj_objectWithKeyValues:resultObject];
+    YBHttpResponseModel *httpObj = [YBHttpResponseModel yb_objectWithKeyValues:resultObject];
     if([httpObj success]){
-        YBResponseModel *ybObj = [YBResponseModel mj_objectWithKeyValues:httpObj.content];
+        YBResponseModel *ybObj = [YBResponseModel yb_objectWithKeyValues:httpObj.content];
         //判断业务逻辑是否返回错误信息
         if([ybObj.info isKindOfClass:[NSString class]]){
             ybObj.info = [[NSDictionary alloc] init];
