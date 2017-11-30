@@ -7,7 +7,6 @@
 //
 
 #import "AESEncrypt.h"
-#import "GTMBase64.h"
 #import "NSData+AES.h"
 #import "YBLogDefine.h"
 

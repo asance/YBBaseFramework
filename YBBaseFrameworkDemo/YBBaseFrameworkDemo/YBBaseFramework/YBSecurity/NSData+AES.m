@@ -9,7 +9,6 @@
 
 #import "NSData+AES.h"
 #import <CommonCrypto/CommonCryptor.h>
-#import "GTMBase64.h"
 
 #define gKey          @"abcdef0123456789"
 #define gIv          @"0123456789abcdef"//@"0103021405060878" //可以自行修改

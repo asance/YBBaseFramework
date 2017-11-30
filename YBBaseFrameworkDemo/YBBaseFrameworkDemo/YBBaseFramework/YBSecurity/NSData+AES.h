@@ -16,7 +16,6 @@
 - (NSData *)AES128EncryptWithKey:(NSString *)key;   //加密
 - (NSData *)AES128DecryptWithKey:(NSString *)key;   //解密
 
-
 - (NSData *)AES128CBCEncryptWithKey:(NSString *)key iv:(NSString *)iv;   //加密
 - (NSData *)AES128CBCDecryptWithKey:(NSString *)key iv:(NSString *)iv;   //解密
 

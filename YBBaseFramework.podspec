@@ -34,12 +34,4 @@ s.dependency 'AFNetworking', '~>3.1.0'
 s.dependency 'SVProgressHUD', '~>2.1.2'
 s.requires_arc = true
 
-non_arc_files = "YBBaseFrameworkDemo/YBBaseFrameworkDemo/GTMBase64/*.{h,m}"
-s.exclude_files = non_arc_files
-
-s.subspec 'non-arc' do |ns|
-ns.source_files = non_arc_files
-ns.requires_arc = false
-end
-
 end
