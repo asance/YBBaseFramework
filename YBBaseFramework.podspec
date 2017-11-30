@@ -29,7 +29,7 @@ s.frameworks = "UIKit", "CoreGraphics", "Foundation"
 s.dependency 'YBBaseDefine', '~>1.0.1'
 s.dependency 'YBBaseCategory', '~>1.0.1'
 s.dependency 'YBKeychainManager', '~>1.0.1'
-s.dependency 'YBLoginWindowManger', '~>1.0.1'
+s.dependency 'YBLoginWindowManager', '~>1.0.1'
 s.dependency 'AFNetworking', '~>3.1.0'
 s.dependency 'SVProgressHUD', '~>2.1.2'
 s.requires_arc = true
