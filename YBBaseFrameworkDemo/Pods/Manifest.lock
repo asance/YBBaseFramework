@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - SVProgressHUD (2.1.2)
+  - YBBaseCategory (1.0.1)
+  - YBBaseDefine (1.0.1)
+  - YBKeychainManager (1.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - SVProgressHUD (~> 2.1.2)
+  - YBBaseCategory (~> 1.0.1)
+  - YBBaseDefine (~> 1.0.1)
+  - YBKeychainManager (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  YBBaseCategory: 513b0137d12fb39309b1967a3518b9904714bb48
+  YBBaseDefine: 71964439eb5d8d675209b375766c418ee2462912
+  YBKeychainManager: a800c688a78e25b982ddbe11eb9344b184272563
+
+PODFILE CHECKSUM: 2135616f1f3cc5eb287ac6da00739acf56889e8f
+
+COCOAPODS: 1.2.1
