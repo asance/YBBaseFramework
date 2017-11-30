@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "YBBaseFramework"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "base framework settings for ubank project."
 
 s.description  = <<-DESC
